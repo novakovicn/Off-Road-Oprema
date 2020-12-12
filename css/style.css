@@ -71,13 +71,10 @@ h1,h2,h3{
 }
 #logo{
     text-align: center;
-    /*background-color: #1b401b;*/
-   /* background-color:#7f877f;*/
-   /* padding: 50px;*/
+   
     font-family: 'Audiowide', cursive;
     font-size: 30px;
-   /* background-image: url("../img/otisak1.png");
-    background-position: center;*/
+  
    
 }
 #logo h1{
@@ -89,7 +86,7 @@ h1,h2,h3{
 }
 .meni{
     text-align: center;
-  /* background-color:#7f877f;*/
+  
    font-family: 'Saira Stencil One', cursive;
    font-size: 22px;
  
@@ -107,8 +104,8 @@ h1,h2,h3{
     display: inline-block;
     padding: 15px 50px;
 }
-.active ul a{
-   background-color: brown;
+.meni ul li.active a {
+   color:#106964;
 }
 #meniDrugi{
     background-color:#212121 ;
@@ -180,6 +177,9 @@ h1,h2,h3{
 }
 .blokGuma img{
     border-radius: 10px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
   
 }
 
@@ -192,6 +192,9 @@ h1,h2,h3{
 }
 .blok img{
     border-radius: 10px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
     
 }
 .slika{
@@ -251,6 +254,9 @@ footer{
 }
 #futerMeni li a:hover{
     color: #106964;
+}
+#futerMeni ul li.active a{
+   color: #106964;
 }
 #navAutor{
     
@@ -335,10 +341,10 @@ button :hover{
     justify-content: space-around;
 }
 #AutorSlika img{
-   
-    -webkit-transition: .5s;
-    transition: .5s;
     border-radius: 3%;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
 }
 
 #AutorSlika {
@@ -418,6 +424,9 @@ iframe{
 }
 #textOnama p{
     margin-top: 50px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
 }
 #oNamaGore{
     display: flex;
@@ -426,3 +435,4 @@ iframe{
 .OnamaBlok{
     width: 50%;
 }
+
